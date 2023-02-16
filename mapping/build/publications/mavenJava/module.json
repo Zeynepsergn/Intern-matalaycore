@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tr.gov.gib",
+    "module": "mapping",
+    "version": "1.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "mapping-1.0-SNAPSHOT.jar",
+          "url": "mapping-1.0-SNAPSHOT.jar",
+          "size": 1713,
+          "sha512": "e3f79e9c829782d9244e61f50bc0f344f61db992f9d98cf55ad040b707e0e5f9d251909a85e8165eccbd6d3faa00b15b60a6bdf7e312192bebe3122df6237190",
+          "sha256": "805f7c7f88a6c5af468299a370e8e1725456f634c4d04c9c37ff1470ff1ab6a6",
+          "sha1": "c48e9e876f045f2b7bc740bc161329ba24b0ec0e",
+          "md5": "3b8c1dd91bc3641b7b8d9934af061244"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-context",
+          "version": {
+            "requires": "6.0.0"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-all",
+          "version": {
+            "requires": "3.0.5"
+          }
+        },
+        {
+          "group": "tr.gov.gib",
+          "module": "common",
+          "version": {
+            "requires": "1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.mapstruct",
+          "module": "mapstruct",
+          "version": {
+            "requires": "1.5.3.Final"
+          }
+        },
+        {
+          "group": "org.mapstruct",
+          "module": "mapstruct-processor",
+          "version": {
+            "requires": "1.5.3.Final"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mapping-1.0-SNAPSHOT.jar",
+          "url": "mapping-1.0-SNAPSHOT.jar",
+          "size": 1713,
+          "sha512": "e3f79e9c829782d9244e61f50bc0f344f61db992f9d98cf55ad040b707e0e5f9d251909a85e8165eccbd6d3faa00b15b60a6bdf7e312192bebe3122df6237190",
+          "sha256": "805f7c7f88a6c5af468299a370e8e1725456f634c4d04c9c37ff1470ff1ab6a6",
+          "sha1": "c48e9e876f045f2b7bc740bc161329ba24b0ec0e",
+          "md5": "3b8c1dd91bc3641b7b8d9934af061244"
+        }
+      ]
+    }
+  ]
+}

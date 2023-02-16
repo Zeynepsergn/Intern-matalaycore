@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tr.gov.gib",
+    "module": "repository",
+    "version": "1.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "repository-1.0-SNAPSHOT.jar",
+          "url": "repository-1.0-SNAPSHOT.jar",
+          "size": 1063,
+          "sha512": "0671b7738ecb8bdcf9d58b56941d77a445cec5b1b7949282f16ebc39c27264601960daea6ae9b5b43b7016b4520030887fb2bb607650e9a08dd81e1190f340a4",
+          "sha256": "56e8af39417e4852021be29d12d556006b86f3371277959423297fe23858179c",
+          "sha1": "d4d5f1a80f00dd72d113e4f709bc7ee9fbba9853",
+          "md5": "5b3181d5ee692df1e43c323dd2d5c82f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "tr.gov.gib",
+          "module": "entity",
+          "version": {
+            "requires": "1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-data-jpa",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "jakarta.persistence",
+          "module": "jakarta.persistence-api",
+          "version": {
+            "requires": "3.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "repository-1.0-SNAPSHOT.jar",
+          "url": "repository-1.0-SNAPSHOT.jar",
+          "size": 1063,
+          "sha512": "0671b7738ecb8bdcf9d58b56941d77a445cec5b1b7949282f16ebc39c27264601960daea6ae9b5b43b7016b4520030887fb2bb607650e9a08dd81e1190f340a4",
+          "sha256": "56e8af39417e4852021be29d12d556006b86f3371277959423297fe23858179c",
+          "sha1": "d4d5f1a80f00dd72d113e4f709bc7ee9fbba9853",
+          "md5": "5b3181d5ee692df1e43c323dd2d5c82f"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tr.gov.gib",
+    "module": "entity",
+    "version": "1.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "entity-1.0-SNAPSHOT.jar",
+          "url": "entity-1.0-SNAPSHOT.jar",
+          "size": 22735,
+          "sha512": "a7ec0aef462df6741d35492b859175ff06190214b77e2a596f3c02ba34ce45283d6e6c79b67de6181a709c809e53b8c7871a0d9234da3c4ea99e045f549d0caa",
+          "sha256": "ec4fc57c3d05b92e60102dcce58c9f7fa0e7c530be6265eff83afdae17ce2593",
+          "sha1": "47de42b58f61bf03f20fd824c5bf1f8e828842d5",
+          "md5": "fbda4a5dd05bf3078348b0451f78cfbc"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "jakarta.persistence",
+          "module": "jakarta.persistence-api",
+          "version": {
+            "requires": "3.1.0"
+          }
+        },
+        {
+          "group": "org.hibernate",
+          "module": "hibernate-entitymanager",
+          "version": {
+            "requires": "5.6.10.Final"
+          }
+        },
+        {
+          "group": "org.projectlombok",
+          "module": "lombok",
+          "version": {
+            "requires": "1.18.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "entity-1.0-SNAPSHOT.jar",
+          "url": "entity-1.0-SNAPSHOT.jar",
+          "size": 22735,
+          "sha512": "a7ec0aef462df6741d35492b859175ff06190214b77e2a596f3c02ba34ce45283d6e6c79b67de6181a709c809e53b8c7871a0d9234da3c4ea99e045f549d0caa",
+          "sha256": "ec4fc57c3d05b92e60102dcce58c9f7fa0e7c530be6265eff83afdae17ce2593",
+          "sha1": "47de42b58f61bf03f20fd824c5bf1f8e828842d5",
+          "md5": "fbda4a5dd05bf3078348b0451f78cfbc"
+        }
+      ]
+    }
+  ]
+}
