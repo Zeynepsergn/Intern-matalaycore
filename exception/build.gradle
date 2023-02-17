@@ -1,0 +1,42 @@
+plugins {
+    id 'java'
+    id 'maven-publish'
+}
+
+group 'tr.gov.gib'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'tr.gov.gib:common:1.0-SNAPSHOT'
+    implementation 'com.fasterxml.jackson.core:jackson-annotations:2.14.0'
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.14.0'
+    implementation 'org.projectlombok:lombok:1.18.20'
+    implementation 'org.hibernate.validator:hibernate-validator:7.0.5.Final'
+    implementation 'jakarta.validation:jakarta.validation-api:3.0.0'
+    implementation 'org.springframework:spring-web:6.0.3'
+    implementation 'org.springframework:spring-context:6.0.4'
+    implementation 'org.springframework:spring-webmvc:6.0.4'
+    annotationProcessor 'org.projectlombok:lombok:1.18.20'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.2'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.2'
+}
+
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            groupId = 'tr.gov.gib'
+            artifactId = 'exception'
+            version = "1.0-SNAPSHOT"
+            from components.java
+        }
+    }
+}
+
+test {
+    useJUnitPlatform()
+}

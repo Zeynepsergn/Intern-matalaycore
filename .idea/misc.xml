@@ -5,6 +5,7 @@
     <file type="web" url="file://$PROJECT_DIR$/common" />
     <file type="web" url="file://$PROJECT_DIR$/entities" />
     <file type="web" url="file://$PROJECT_DIR$/entity" />
+    <file type="web" url="file://$PROJECT_DIR$/exception" />
     <file type="web" url="file://$PROJECT_DIR$/mapper" />
     <file type="web" url="file://$PROJECT_DIR$/mappers" />
     <file type="web" url="file://$PROJECT_DIR$/mapping" />
