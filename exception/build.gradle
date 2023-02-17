@@ -1,6 +1,5 @@
 plugins {
     id 'java'
-    id 'maven-publish'
 }
 
 group 'tr.gov.gib'
@@ -24,17 +23,6 @@ dependencies {
     annotationProcessor 'org.projectlombok:lombok:1.18.20'
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.2'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.2'
-}
-
-publishing {
-    publications {
-        mavenJava(MavenPublication) {
-            groupId = 'tr.gov.gib'
-            artifactId = 'exception'
-            version = "1.0-SNAPSHOT"
-            from components.java
-        }
-    }
 }
 
 test {
