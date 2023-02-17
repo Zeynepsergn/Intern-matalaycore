@@ -28,10 +28,10 @@
           "name": "mapping-1.0-SNAPSHOT.jar",
           "url": "mapping-1.0-SNAPSHOT.jar",
           "size": 1713,
-          "sha512": "e3f79e9c829782d9244e61f50bc0f344f61db992f9d98cf55ad040b707e0e5f9d251909a85e8165eccbd6d3faa00b15b60a6bdf7e312192bebe3122df6237190",
-          "sha256": "805f7c7f88a6c5af468299a370e8e1725456f634c4d04c9c37ff1470ff1ab6a6",
-          "sha1": "c48e9e876f045f2b7bc740bc161329ba24b0ec0e",
-          "md5": "3b8c1dd91bc3641b7b8d9934af061244"
+          "sha512": "b8129d5cd528c91ff1474f353893ad9a5953fe9b979c583f7fcd7b12fe975b193c5a2d41a72fdaa7bdaabca6a10aa13fa174004ee7b57b12e19658a67130a6b1",
+          "sha256": "0215d2a93189055b31cc6b4bb6b26b723f1a7ea0a1940c6f87d84c42fe327f41",
+          "sha1": "6b81d23527bfd7f697140d3f221106d6e8c1dee9",
+          "md5": "f2939d740d22e99420a4813ab942f380"
         }
       ]
     },
@@ -74,6 +74,13 @@
           }
         },
         {
+          "group": "jakarta.persistence",
+          "module": "jakarta.persistence-api",
+          "version": {
+            "requires": "3.1.0"
+          }
+        },
+        {
           "group": "org.mapstruct",
           "module": "mapstruct-processor",
           "version": {
@@ -86,10 +93,10 @@
           "name": "mapping-1.0-SNAPSHOT.jar",
           "url": "mapping-1.0-SNAPSHOT.jar",
           "size": 1713,
-          "sha512": "e3f79e9c829782d9244e61f50bc0f344f61db992f9d98cf55ad040b707e0e5f9d251909a85e8165eccbd6d3faa00b15b60a6bdf7e312192bebe3122df6237190",
-          "sha256": "805f7c7f88a6c5af468299a370e8e1725456f634c4d04c9c37ff1470ff1ab6a6",
-          "sha1": "c48e9e876f045f2b7bc740bc161329ba24b0ec0e",
-          "md5": "3b8c1dd91bc3641b7b8d9934af061244"
+          "sha512": "b8129d5cd528c91ff1474f353893ad9a5953fe9b979c583f7fcd7b12fe975b193c5a2d41a72fdaa7bdaabca6a10aa13fa174004ee7b57b12e19658a67130a6b1",
+          "sha256": "0215d2a93189055b31cc6b4bb6b26b723f1a7ea0a1940c6f87d84c42fe327f41",
+          "sha1": "6b81d23527bfd7f697140d3f221106d6e8c1dee9",
+          "md5": "f2939d740d22e99420a4813ab942f380"
         }
       ]
     }
