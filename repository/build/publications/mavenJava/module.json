@@ -28,10 +28,10 @@
           "name": "repository-1.0-SNAPSHOT.jar",
           "url": "repository-1.0-SNAPSHOT.jar",
           "size": 1063,
-          "sha512": "0671b7738ecb8bdcf9d58b56941d77a445cec5b1b7949282f16ebc39c27264601960daea6ae9b5b43b7016b4520030887fb2bb607650e9a08dd81e1190f340a4",
-          "sha256": "56e8af39417e4852021be29d12d556006b86f3371277959423297fe23858179c",
-          "sha1": "d4d5f1a80f00dd72d113e4f709bc7ee9fbba9853",
-          "md5": "5b3181d5ee692df1e43c323dd2d5c82f"
+          "sha512": "3e075ecf1ae0542c4ad6f3f15ee309605f0558c937627b6776f9bb3730dfb8e8320fab2afbee1e9b2473bb4cd7aaacb2889ce8795928f19eb15b7406d1d4a7e7",
+          "sha256": "0303d6245514f0d9dc3186fd62270f9105108ecc659d6f86a3daf54080a30865",
+          "sha1": "739f63c80a9d0c3278642fdcc66f967474509361",
+          "md5": "9d44adb285a16122d99a4c8b5cbe5592"
         }
       ]
     },
@@ -79,10 +79,10 @@
           "name": "repository-1.0-SNAPSHOT.jar",
           "url": "repository-1.0-SNAPSHOT.jar",
           "size": 1063,
-          "sha512": "0671b7738ecb8bdcf9d58b56941d77a445cec5b1b7949282f16ebc39c27264601960daea6ae9b5b43b7016b4520030887fb2bb607650e9a08dd81e1190f340a4",
-          "sha256": "56e8af39417e4852021be29d12d556006b86f3371277959423297fe23858179c",
-          "sha1": "d4d5f1a80f00dd72d113e4f709bc7ee9fbba9853",
-          "md5": "5b3181d5ee692df1e43c323dd2d5c82f"
+          "sha512": "3e075ecf1ae0542c4ad6f3f15ee309605f0558c937627b6776f9bb3730dfb8e8320fab2afbee1e9b2473bb4cd7aaacb2889ce8795928f19eb15b7406d1d4a7e7",
+          "sha256": "0303d6245514f0d9dc3186fd62270f9105108ecc659d6f86a3daf54080a30865",
+          "sha1": "739f63c80a9d0c3278642fdcc66f967474509361",
+          "md5": "9d44adb285a16122d99a4c8b5cbe5592"
         }
       ]
     }

@@ -28,10 +28,10 @@
           "name": "entity-1.0-SNAPSHOT.jar",
           "url": "entity-1.0-SNAPSHOT.jar",
           "size": 22735,
-          "sha512": "a7ec0aef462df6741d35492b859175ff06190214b77e2a596f3c02ba34ce45283d6e6c79b67de6181a709c809e53b8c7871a0d9234da3c4ea99e045f549d0caa",
-          "sha256": "ec4fc57c3d05b92e60102dcce58c9f7fa0e7c530be6265eff83afdae17ce2593",
-          "sha1": "47de42b58f61bf03f20fd824c5bf1f8e828842d5",
-          "md5": "fbda4a5dd05bf3078348b0451f78cfbc"
+          "sha512": "eaab171a8ae8c3728d17eb4ef0598ff5e8caa29c2507be678278e313afbd34174f309db05a6becb24d2e2ac1547865aab1455db86c30bd59003689ff7edf8e30",
+          "sha256": "e0047eeccd0690ef6c8c982328dbfb64415fbcdd0feb8b109fb9bb84f72c6f4e",
+          "sha1": "2c11ee1f915657850835b75a419fd6dd90c50c01",
+          "md5": "e1a9274f80d5607cb36397efd8b626f9"
         }
       ]
     },
@@ -72,10 +72,10 @@
           "name": "entity-1.0-SNAPSHOT.jar",
           "url": "entity-1.0-SNAPSHOT.jar",
           "size": 22735,
-          "sha512": "a7ec0aef462df6741d35492b859175ff06190214b77e2a596f3c02ba34ce45283d6e6c79b67de6181a709c809e53b8c7871a0d9234da3c4ea99e045f549d0caa",
-          "sha256": "ec4fc57c3d05b92e60102dcce58c9f7fa0e7c530be6265eff83afdae17ce2593",
-          "sha1": "47de42b58f61bf03f20fd824c5bf1f8e828842d5",
-          "md5": "fbda4a5dd05bf3078348b0451f78cfbc"
+          "sha512": "eaab171a8ae8c3728d17eb4ef0598ff5e8caa29c2507be678278e313afbd34174f309db05a6becb24d2e2ac1547865aab1455db86c30bd59003689ff7edf8e30",
+          "sha256": "e0047eeccd0690ef6c8c982328dbfb64415fbcdd0feb8b109fb9bb84f72c6f4e",
+          "sha1": "2c11ee1f915657850835b75a419fd6dd90c50c01",
+          "md5": "e1a9274f80d5607cb36397efd8b626f9"
         }
       ]
     }

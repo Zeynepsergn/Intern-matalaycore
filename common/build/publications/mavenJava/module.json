@@ -27,11 +27,11 @@
         {
           "name": "common-1.0-SNAPSHOT.jar",
           "url": "common-1.0-SNAPSHOT.jar",
-          "size": 4452,
-          "sha512": "9e8b1bdafe3fc9e6e1301bb820ea3f1a499e8ce6c7ff0f6181d188887c15227507d61d77e517ed045498f26d201f3c7331925a0aeb27713fbbf6ab64fe6843c4",
-          "sha256": "0ee44156fb5dcf83b752f24fee920fca0fdbaad19a1e933aad43c06d83453898",
-          "sha1": "01926ec9c47548f36488bd82207cb8de1125a9f2",
-          "md5": "72be668fc41c1c1111fb38e955e2fe50"
+          "size": 4648,
+          "sha512": "2de91989bbe269c6e84b8b509299e26c1285011ae4141fc516595523d4a12a33af84c077280ed85f62dacaddc75bb1d4f723e82115452971631ef76cbda715f6",
+          "sha256": "3640b0c2d609c1ee7b247a15943aac0d797938c821ad90581f47ae058f1f8ffa",
+          "sha1": "29408dbd79bd5f7534f87ae40da8400b80b9999e",
+          "md5": "00d370925daa9239a81070dae3d18ed0"
         }
       ]
     },
@@ -51,17 +51,24 @@
           "version": {
             "requires": "1.18.20"
           }
+        },
+        {
+          "group": "jakarta.persistence",
+          "module": "jakarta.persistence-api",
+          "version": {
+            "requires": "3.1.0"
+          }
         }
       ],
       "files": [
         {
           "name": "common-1.0-SNAPSHOT.jar",
           "url": "common-1.0-SNAPSHOT.jar",
-          "size": 4452,
-          "sha512": "9e8b1bdafe3fc9e6e1301bb820ea3f1a499e8ce6c7ff0f6181d188887c15227507d61d77e517ed045498f26d201f3c7331925a0aeb27713fbbf6ab64fe6843c4",
-          "sha256": "0ee44156fb5dcf83b752f24fee920fca0fdbaad19a1e933aad43c06d83453898",
-          "sha1": "01926ec9c47548f36488bd82207cb8de1125a9f2",
-          "md5": "72be668fc41c1c1111fb38e955e2fe50"
+          "size": 4648,
+          "sha512": "2de91989bbe269c6e84b8b509299e26c1285011ae4141fc516595523d4a12a33af84c077280ed85f62dacaddc75bb1d4f723e82115452971631ef76cbda715f6",
+          "sha256": "3640b0c2d609c1ee7b247a15943aac0d797938c821ad90581f47ae058f1f8ffa",
+          "sha1": "29408dbd79bd5f7534f87ae40da8400b80b9999e",
+          "md5": "00d370925daa9239a81070dae3d18ed0"
         }
       ]
     }
