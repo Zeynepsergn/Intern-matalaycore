@@ -1,0 +1,33 @@
+plugins {
+    id 'java'
+    id 'maven-publish'
+}
+
+group 'tr.gov.gib'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-data-redis:3.0.0'
+    implementation 'org.apache.commons:commons-pool2:2.11.1'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.2'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.2'
+}
+
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            groupId = 'tr.gov.gib'
+            artifactId = 'redis'
+            version = "1.0-SNAPSHOT"
+            from components.java
+        }
+    }
+}
+
+test {
+    useJUnitPlatform()
+}

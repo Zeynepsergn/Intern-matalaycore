@@ -13,6 +13,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
         {
                 "tr.gov.gib.mapping",
                 "tr.gov.gib.services",
+                "tr.gov.gib.redis",
                 "tr.gov.gib.productinquiryapi.config",
                 "tr.gov.gib.**"
         })
