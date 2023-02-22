@@ -11,6 +11,9 @@
     <file type="web" url="file://$PROJECT_DIR$/mapping" />
     <file type="web" url="file://$PROJECT_DIR$/message-api" />
     <file type="web" url="file://$PROJECT_DIR$/product-inquiry-api" />
+    <file type="web" url="file://$PROJECT_DIR$/rabbitconsumer" />
+    <file type="web" url="file://$PROJECT_DIR$/rabbitmq-publisher" />
+    <file type="web" url="file://$PROJECT_DIR$/rabbitpublisher" />
     <file type="web" url="file://$PROJECT_DIR$/redis" />
     <file type="web" url="file://$PROJECT_DIR$/repository" />
     <file type="web" url="file://$PROJECT_DIR$/services" />

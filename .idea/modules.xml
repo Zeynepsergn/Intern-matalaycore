@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common.main.iml" filepath="$PROJECT_DIR$/.idea/modules/common.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/entity.main.iml" filepath="$PROJECT_DIR$/.idea/modules/entity.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/exception.main.iml" filepath="$PROJECT_DIR$/.idea/modules/exception.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mapping.main.iml" filepath="$PROJECT_DIR$/.idea/modules/mapping.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/matalay-core.iml" filepath="$PROJECT_DIR$/matalay-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/message-api.main.iml" filepath="$PROJECT_DIR$/.idea/modules/message-api.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/product-inquiry-api.main.iml" filepath="$PROJECT_DIR$/.idea/modules/product-inquiry-api.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rabbitpublisher.main.iml" filepath="$PROJECT_DIR$/.idea/modules/rabbitpublisher.main.iml" />
     </modules>
   </component>
 </project>
