@@ -3,6 +3,9 @@ package tr.gov.gib.rabbitpublisher.controller;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import tr.gov.gib.common.ServiceInputObject;
+import tr.gov.gib.common.ServiceReturnObject;
+import tr.gov.gib.common.enums.ServiceEnum;
+import tr.gov.gib.entity.Actor;
 import tr.gov.gib.rabbitpublisher.publisher.RabbitMQJsonProducer;
 import tr.gov.gib.rabbitpublisher.publisher.RabbitMQProducer;
 
@@ -10,8 +13,8 @@ import tr.gov.gib.rabbitpublisher.publisher.RabbitMQProducer;
 @RequestMapping("/api/v1")
 public class MessageController {
 
-    private RabbitMQProducer producer;
-    private RabbitMQJsonProducer jsonProducer;
+    private final RabbitMQProducer producer;
+    private final RabbitMQJsonProducer jsonProducer;
 
     public MessageController(RabbitMQProducer producer,RabbitMQJsonProducer jsonProducer) {
         this.producer = producer;
@@ -25,8 +28,9 @@ public class MessageController {
     }
 
     @PostMapping("/publish")
-    public ResponseEntity<String> sendJsonMessage(@RequestBody ServiceInputObject<String> message){
-        jsonProducer.sendJsonMessage(message);
-        return ResponseEntity.ok("Json message sent to RabbitMQ ...");
+    public ResponseEntity<ServiceReturnObject<Actor>> sendJsonMessage(@RequestBody ServiceInputObject<Actor> inputObject){
+        jsonProducer.sendJsonMessage(inputObject);
+        ServiceReturnObject<Actor> serviceReturnObject = new ServiceReturnObject<>(ServiceEnum.CREATED,inputObject.getInputBody());
+        return ResponseEntity.ok(serviceReturnObject);
     }
 }

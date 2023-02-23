@@ -7,6 +7,12 @@ plugins {
 group 'tr.gov.gib'
 version '1.0-SNAPSHOT'
 
+compileJava.options.encoding = 'utf-8'
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'utf-8'
+}
+
 repositories {
     mavenLocal()
     mavenCentral()

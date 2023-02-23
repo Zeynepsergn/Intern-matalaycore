@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/matalay-core.iml" filepath="$PROJECT_DIR$/matalay-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/message-api.main.iml" filepath="$PROJECT_DIR$/.idea/modules/message-api.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/product-inquiry-api.main.iml" filepath="$PROJECT_DIR$/.idea/modules/product-inquiry-api.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rabbitconsumer.main.iml" filepath="$PROJECT_DIR$/.idea/modules/rabbitconsumer.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/rabbitpublisher.main.iml" filepath="$PROJECT_DIR$/.idea/modules/rabbitpublisher.main.iml" />
     </modules>
   </component>

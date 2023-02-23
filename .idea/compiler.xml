@@ -8,7 +8,7 @@
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-configuration-processor/3.0.2/9a921dedf1930388289f0e68f7e7808f3389dcae/spring-boot-configuration-processor-3.0.2.jar" />
           <entry name="$USER_HOME$/.m2/repository/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar" />
         </processorPath>
-        <module name="rabbitpublisher.main" />
+        <module name="rabbitconsumer.main" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

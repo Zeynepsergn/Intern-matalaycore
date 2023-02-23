@@ -28,10 +28,10 @@
           "name": "mapping-1.0-SNAPSHOT.jar",
           "url": "mapping-1.0-SNAPSHOT.jar",
           "size": 1713,
-          "sha512": "c9e99bceced07cdfdab3f87c40150c19dc08c4af5394c70dc23348292c367572d539b3e60a14dfd5464be948e5edcf9e7ffa4ca69cb3d0212aa1b2004b90b0ba",
-          "sha256": "0a2aa97c2fbeef3bdf654aa0cf993744a8368dda2bd1847c2976ab241c324ebc",
-          "sha1": "470fedf84ffc582315b92dfd06ed3bb48b42edaf",
-          "md5": "e2c93f92c4020b4b213e056ce1457b9e"
+          "sha512": "ab34795e17be872520b58235dad68d892dd5f0a8cbd3d28f5b4f3d79e1f3f4759024e06c3193162ed7ddfa563bf2d0a09538f0c035318feffadfde62f7706a5d",
+          "sha256": "190feed4e476f64339998af62bcfeffd9bcdf1e067c0098671eb397119bc5763",
+          "sha1": "641959ee2e6e033a7ce941e4c3cf16ed7b8969ec",
+          "md5": "547c608d52267906d309dd2d209d62e5"
         }
       ]
     },
@@ -93,10 +93,10 @@
           "name": "mapping-1.0-SNAPSHOT.jar",
           "url": "mapping-1.0-SNAPSHOT.jar",
           "size": 1713,
-          "sha512": "c9e99bceced07cdfdab3f87c40150c19dc08c4af5394c70dc23348292c367572d539b3e60a14dfd5464be948e5edcf9e7ffa4ca69cb3d0212aa1b2004b90b0ba",
-          "sha256": "0a2aa97c2fbeef3bdf654aa0cf993744a8368dda2bd1847c2976ab241c324ebc",
-          "sha1": "470fedf84ffc582315b92dfd06ed3bb48b42edaf",
-          "md5": "e2c93f92c4020b4b213e056ce1457b9e"
+          "sha512": "ab34795e17be872520b58235dad68d892dd5f0a8cbd3d28f5b4f3d79e1f3f4759024e06c3193162ed7ddfa563bf2d0a09538f0c035318feffadfde62f7706a5d",
+          "sha256": "190feed4e476f64339998af62bcfeffd9bcdf1e067c0098671eb397119bc5763",
+          "sha1": "641959ee2e6e033a7ce941e4c3cf16ed7b8969ec",
+          "md5": "547c608d52267906d309dd2d209d62e5"
         }
       ]
     }

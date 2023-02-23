@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 import tr.gov.gib.common.ServiceInputObject;
 import tr.gov.gib.common.ServiceReturnObject;
 
-@Service
+@Component
 public class RabbitMQJsonProducer {
 
     @Value("${rabbitmq.exchange.name}")
@@ -26,8 +26,9 @@ public class RabbitMQJsonProducer {
         this.rabbitTemplate = rabbitTemplate;
     }
 
-    public void sendJsonMessage(ServiceInputObject<String> serviceInputObject){
-        LOGGER.info(String.format("Json message sent -> %s", serviceInputObject.toString()));
-        rabbitTemplate.convertAndSend(exchange, routingJsonKey, serviceInputObject);
+    public <T> void sendJsonMessage(ServiceInputObject<T> serviceInputObject){
+        T type = serviceInputObject.getInputBody();
+        LOGGER.info(String.format("Json message sent -> %s", type.toString()));
+        rabbitTemplate.convertAndSend(exchange, routingJsonKey, type);
     }
 }
